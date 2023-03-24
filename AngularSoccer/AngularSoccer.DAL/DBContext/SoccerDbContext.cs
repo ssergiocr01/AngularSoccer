@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using AngularSoccer.Models;
+﻿using AngularSoccer.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AngularSoccer.DAL.DBContext;
