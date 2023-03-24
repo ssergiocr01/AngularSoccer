@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularSoccer.Models", "AngularSoccer.Models\AngularSoccer.Models.csproj", "{32006D9D-B98E-4720-90BA-DAB3F9CDC87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularSoccer.IOC", "AngularSoccer.IOC\AngularSoccer.IOC.csproj", "{5DA6503B-F927-4B12-9DF0-68813459C1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularSoccer.DAL", "AngularSoccer.DAL\AngularSoccer.DAL.csproj", "{5AB6A1D4-F3E7-4190-ABF2-B833E766D947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularSoccer.BLL", "AngularSoccer.BLL\AngularSoccer.BLL.csproj", "{5097DBDC-87A3-491A-AEC8-47092F9B88C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularSoccer.DTO", "AngularSoccer.DTO\AngularSoccer.DTO.csproj", "{D502C96C-98F1-4C70-AEC0-C915829F93D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularSoccer.Utility", "AngularSoccer.Utility\AngularSoccer.Utility.csproj", "{A6A5768A-8DD4-4A40-A066-20E0799114D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularSoccer.API", "AngularSoccer.API\AngularSoccer.API.csproj", "{5705F95B-E42D-4B41-B997-028F03A1867E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32006D9D-B98E-4720-90BA-DAB3F9CDC87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32006D9D-B98E-4720-90BA-DAB3F9CDC87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32006D9D-B98E-4720-90BA-DAB3F9CDC87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32006D9D-B98E-4720-90BA-DAB3F9CDC87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA6503B-F927-4B12-9DF0-68813459C1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA6503B-F927-4B12-9DF0-68813459C1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA6503B-F927-4B12-9DF0-68813459C1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA6503B-F927-4B12-9DF0-68813459C1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB6A1D4-F3E7-4190-ABF2-B833E766D947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB6A1D4-F3E7-4190-ABF2-B833E766D947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB6A1D4-F3E7-4190-ABF2-B833E766D947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB6A1D4-F3E7-4190-ABF2-B833E766D947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5097DBDC-87A3-491A-AEC8-47092F9B88C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5097DBDC-87A3-491A-AEC8-47092F9B88C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5097DBDC-87A3-491A-AEC8-47092F9B88C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5097DBDC-87A3-491A-AEC8-47092F9B88C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D502C96C-98F1-4C70-AEC0-C915829F93D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D502C96C-98F1-4C70-AEC0-C915829F93D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D502C96C-98F1-4C70-AEC0-C915829F93D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D502C96C-98F1-4C70-AEC0-C915829F93D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A5768A-8DD4-4A40-A066-20E0799114D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A5768A-8DD4-4A40-A066-20E0799114D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A5768A-8DD4-4A40-A066-20E0799114D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A5768A-8DD4-4A40-A066-20E0799114D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5705F95B-E42D-4B41-B997-028F03A1867E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5705F95B-E42D-4B41-B997-028F03A1867E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5705F95B-E42D-4B41-B997-028F03A1867E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5705F95B-E42D-4B41-B997-028F03A1867E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {223B74F8-03C7-4647-9EBD-1A4368DE8F2F}
+	EndGlobalSection
+EndGlobal

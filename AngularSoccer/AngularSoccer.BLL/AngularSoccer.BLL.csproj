@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AngularSoccer.DAL\AngularSoccer.DAL.csproj" />
+    <ProjectReference Include="..\AngularSoccer.DTO\AngularSoccer.DTO.csproj" />
+    <ProjectReference Include="..\AngularSoccer.Models\AngularSoccer.Models.csproj" />
+    <ProjectReference Include="..\AngularSoccer.Utility\AngularSoccer.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
